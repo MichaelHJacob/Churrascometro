@@ -64,9 +64,6 @@ function intro() {
     logo.style.fontSize = "20px";
     header.style.height = "48px";
     pre.style.opacity = "0";
-
-
-    // pre.style.display = "none";
    
     setTimeout(function () {pre.style.display = "none"; }, 1200);
 } 
