@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Todas as demais mídias */
+
+@media screen and (max-width: 355px) {
+    .grupoBtns  {
+        width: calc(var(--larg) * 2);
+    }
+
+    #areaCalc{
+        padding-bottom: 3vh;
+    }
+
+
+}
+
+@media screen and (min-width: 768px)   {
+    .main {
+        flex-direction: row;
+        max-width: 1000px;
+    }
+    #areaCalc {
+        width: 40%;
+        min-width: 300px;
+    }
+    #areaResul {
+        width: 60%;
+    }
+}
+
+

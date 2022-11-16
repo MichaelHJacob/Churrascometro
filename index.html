@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FBFAF6">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2D2A2A">
+    <title>Churrascômetro</title>
+    <!-- <link rel="icon" type="image/x-icon" href="LogoChurrascômetor.png"> -->
+    <link rel="stylesheet" href="estilos/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+
+<body onload="intro()">
+    <body>
+    <header class="header">
+        <h1 class="logo">Churrascômetro</h1>
+        <!--div class="tema">
+            <h3>Alterar Tema</h3>
+            <label class="troca">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+
+        </div-->
+    </header>
+
+    <div id="pre"></div>
+
+    <main class="main">
+        <div id="areaResul">
+            <div id="imp" class="change"></div> 
+            <div id="paper" class="change">
+                
+                <ul id="itens" class="change">
+                    <li >4.8 kg de carne  </li>
+                    <li >17 Latas de Cerveja  </li>
+                    <li >6 Garrafas de Refrigerante  </li>
+                </ul>
+            </div>
+        </div>
+        <div id="areaCalc">
+            <ul>
+                <li><p>Adultos:</p> <div class="grupoBtns">
+                        <p class="visorCont" id="NunAdultos">0</p> <button class="btns">-</button><button class="btns">+</button>
+                    </div>
+                </li>
+                <li><p>Crianças:</p> <div class="grupoBtns">
+                        <p class="visorCont"  id="NunCrianças">0</p><button class="btns">-</button><button class="btns">+</button>
+                    </div>
+                </li>
+                <li><p>Duração:</p> <div class="grupoBtns">
+                        <div id="H"><p class="visorCont"  id="horas">0</p><p class="visor">H.</p><button class="btns">-</button><button class="btns">+</button></div>
+                        <div id="M"><p class="visorCont"  id="minutos" style="clear: both;">0</p><p class="visor">M.</p><button class="btns">-</button><button class="btns">+</button></div>
+                    </div>
+                </li>
+
+            </ul>
+            <button class="buttonCalc" onclick="exibirImp(this)" value="calc" >Calcular</button>
+        </div>
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html> 
+
