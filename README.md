@@ -5,9 +5,9 @@ Para o usuário usar o sistema "Churrascômetro" basta indicar a quantidade de a
 
 Grupo 35
 
-Mariana de Freitas Azevedo Alencar
-Misael Oliveira Soares
-Michael Henrique Jacob
-Murilo Henrique Nellis
-Natalia Romo
-Paulo Henrique de Oliveira
+Mariana de Freitas Azevedo Alencar;
+Misael Oliveira Soares;
+Michael Henrique Jacob;
+Murilo Henrique Nellis;
+Natalia Romo;
+Paulo Henrique de Oliveira;
