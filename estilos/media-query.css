@@ -2,30 +2,146 @@
 
 /* Todas as demais mídias */
 
-@media screen and (max-width: 355px) {
-    .grupoBtns  {
+@media screen and (max-width: 370px) {
+
+    .grupoBtns {
         width: calc(var(--larg) * 2);
+        flex-wrap: wrap;
     }
 
-    #areaCalc{
-        padding-bottom: 3vh;
+    /* #areaCalc li:last-child .grupoBtns { */
+        .duracao, #M, #H {
+        width: calc(var(--larg) * 4 + (47.5vw - 118px) );
+        min-width: calc(var(--larg) * 4 + 2px );
+        max-width: calc(var(--larg) * 4 + 26px );
+    }
+
+    #H input[type="number"], #M input[type="number"] {
+        width: calc(var(--larg) + (47.5vw - 118px));
+        min-width: calc(var(--larg) + 2px );
+        max-width: calc(var(--larg) + 26px );
+    }
+
+    #areaCalc li {
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        min-width: calc(var(--larg) * 2 + 5px);
+        max-width: calc(var(--larg) * 2 + 30px ); 
     }
 
 
+
+    .main {
+        padding: 0;
+        width: 95%;
+
+    }
+
+    #areaCalc ul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
 }
 
-@media screen and (min-width: 768px)   {
-    .main {
+@media screen and (max-width: 237px) {
+    .duracao {
+        width: calc(var(--larg) * 2);
+        min-width: calc(var(--larg) * 2 );
+        max-width: calc(var(--larg) * 2 );
+        height:calc(var(--larg) * 4);
+        max-height:calc(var(--larg) * 4);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #H ,#M {
+        display: flex;
         flex-direction: row;
-        max-width: 1000px;
+        width: calc(var(--larg) * 2);
+        min-width: calc(var(--larg) * 2);;
+        height:calc(var(--larg) * 2);
+        max-height:calc(var(--larg) * 2);
+        flex-wrap: wrap;
+
+    }
+    .duracao .visor{
+        float: left;
+        height: var(--larg);
+    }
+
+    #H input[type="number"], #M input[type="number"] { 
+        width: var(--larg);
+        min-width: var(--larg);
+        max-width: var(--larg);
+        height: var(--larg);
+        float: left;
+    }
+    #areaCalc li:last-child {
+        width: 100%;
+        min-width: none;
+        max-width: none;
+    }
+
+    #areaCalc ul {
+        height: auto;
+        min-height: none;
+        max-height: none;
+        padding-bottom: 25px;
     }
     #areaCalc {
-        width: 40%;
-        min-width: 300px;
+        height: auto;
+        min-height: none;
+        max-height: none;
     }
+
+    #paper ul {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 1000px;
+        min-height: 0;
+    }
+
+    #areaCalc {
+        width: 40%;
+        min-width: 320px;
+        max-width: 450px;
+        padding: 0 2%;
+        height: 100%;
+        min-height: auto;
+    }
+    #areaCalc ul{
+        padding-bottom: 0;
+
+    }
+
     #areaResul {
         width: 60%;
+        max-width: 450px;
     }
 }
 
+@media screen and (orientation: landscape) {
+    .main {
+        min-height: auto;
+    }
+    #areaCalc ul {
+        min-height: 240px;
+        padding-bottom: 0;
+    }
+    #areaCalc {
+        min-height: 250px;
+    }
 
+}
