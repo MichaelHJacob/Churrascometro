@@ -1,4 +1,5 @@
-<h1 style="text-align: center; color: #FF0F00; text-transform:uppercase; font-family: 'Rajdhani'; font-style: normal;font-weight: 700; font-size: 1.5em; letter-spacing: 0.015em; text-shadow: none; padding: 0px 30px; line-height: 1px; border-bottom: 2px solid #0000000d; margin-bottom: 10px;">Churrascômetro</h1>
+
+<h1 align="center">Churrascômetro</h1>
 
 Projeto Integrador Senac
 
