@@ -7,8 +7,8 @@ function intro() {
     logo.style.fontSize = "20px";
     header.style.height = "48px";
     pre.style.opacity = "0";
-
-    setTimeout(function () { pre.style.display = "none"; }, 1200);
+    pre.addEventListener("webkitanimationend", ()=>{pre.style.display = "none";})
+    pre.addEventListener("transitionend", ()=>{pre.style.display = "none";})
 }
 
 const buttons = document.querySelectorAll(".btns");
@@ -134,6 +134,8 @@ function refrigerantePP(duracao) {
     }
 }
 
-
+window.onload = (event) => {
+    intro()
+}
 
 
