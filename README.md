@@ -14,9 +14,12 @@ Murilo Henrique Nellis;
 Natalia Romo;
 Paulo Henrique de Oliveira;
 
-Link para o vídeo no Youtube: https://www.youtube.com/watch?v=37UaYa6xz20&ab_channel=MarianaAlencar
+## Links 
 
-* Projeto online
-<h2> 
-    Link: <a href="https://michaelhjacob.github.io/Churrascometro/">🔗 Churrascometro</a>
-</h2>
+- [📺 Vídeo Youtube](https://www.youtube.com/watch?v=37UaYa6xz20&ab_channel=MarianaAlencar) - Link para o vídeo de apresentação no Youtube.
+- [🔗 Protótipo](https://www.figma.com/design/A2StufszFPaeBcq000t9Vc/App-Churrasc%C3%B4metro?node-id=1-929&t=XlDPdBQ77ePM22nJ-1) - Protótipo do projeto desenvolvido no Figma.
+- [🔗 Churrascometro](https://michaelhjacob.github.io/Churrascometro/) - Link do Projeto online.
+
+## Screenshot
+
+![Captura de Tela do Projeto](https://github.com/user-attachments/assets/628acb4f-2b9e-4bbb-bdd5-329960e5741e)
