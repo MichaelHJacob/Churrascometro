@@ -22,4 +22,5 @@ Paulo Henrique de Oliveira;
 
 ## Screenshot
 
-![Captura de Tela do Projeto](https://github.com/user-attachments/assets/628acb4f-2b9e-4bbb-bdd5-329960e5741e)
+![Captura de Tela do Projeto modo light](https://github.com/user-attachments/assets/628acb4f-2b9e-4bbb-bdd5-329960e5741e)
+![Captura de Tela do Projeto modo dark](https://github.com/user-attachments/assets/ef1961f2-1429-4c4f-b446-a8dcb2e0390a) 
